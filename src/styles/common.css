@@ -1,0 +1,100 @@
+.titBox{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 12px;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.tit{
+    font-weight: bold;
+    color: #000000;
+    line-height: 40px;
+    display: block;
+}
+.apply-user-list{
+    display: inline-grid;
+    text-align: center;
+    padding-right: 15px;
+}
+.username{
+    color: #000;
+}
+.el-form{
+    display: inline-block;
+}
+.invoiceRules{
+    float: right;
+    margin-top: 10px;
+}
+.form{
+    padding: 20px 10px 10px;
+}
+.pickerStart{
+    margin-right: 10px
+}
+.subtotal{
+    float: right;
+    right: 0px;
+    position: absolute;
+}
+.dept{
+    font-weight: bold;
+    color: #000000;
+    line-height: 40px;
+}
+.deptBox{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 320px) {
+    .el-textarea{
+        width: 95% !important;
+    }
+    .el-date-editor.el-input{
+        width: 150px !important;
+    }
+    .el-input{
+        width: 85% !important;
+    }
+    .el-select{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:675px){
+    .switch{
+        float: left !important;
+        margin-bottom: 8px;
+    }
+    .search{
+        margin-bottom: 5px;
+    }
+    .pickerStart{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:480px){
+    .subtotal{
+        top: 0;
+    }
+    .subtotal1{
+        top: 40px;
+    }
+    .el-message-box {
+        width: auto !important;
+        min-width: 60%;
+    }
+    .el-pagination__sizes{
+        width: 50%;
+    }
+    .el-pagination .btn-prev{
+        margin-left: -5%;
+    }
+
+}
